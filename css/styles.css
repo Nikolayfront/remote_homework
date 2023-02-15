@@ -19,7 +19,7 @@ body {
     font-family: Nunito, sans-serif;
     font-size: 16px;
     line-height: 1;
-    background:#FFFFFB;
+    background: #dcdc5e;
 }
 
 .main {
@@ -52,7 +52,7 @@ body {
 
 .main__left-part {
     justify-content: right;
-    background:#FFFFFB;
+    background: #eaeac6;
 }
 
 .main__right-part {
