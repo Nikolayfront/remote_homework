@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework_DOM</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<main class="main">
+    <div class="logo">
+        <img src="images/Logo.png" alt="Logo" class="logo-img">
+    </div>
+    <div class="main__left-part">
+        <div class="container main__container-left">
+            <div class="main__tittle">
+                <h1>Get your free account</h1>
+            </div>
+            <div class="main__info">
+                Try homeWorks BUSINESS free for 15 days. Downgrade to Basic (Free Forever) anytime.
+            </div>
+            <form action="#" class="form" id="form">
+                <label class="form__label" id="form__label-fullName">
+                    Full name
+                    <input type="text" name="fullName" class="form__input" id="fullName">
+                </label>
+                <label class="form__label">
+                    Your username
+                    <input type="text" name="userName" class="form__input" id="userName">
+                </label>
+                <label class="form__label" id="form__label-email">
+                    E-mail
+                    <input type="email" name="email" class="form__input" id="email">
+                </label>
+                <label class="form__label">
+                    Password
+                    <input type="password" name="password" class="form__input" id="password">
+                </label>
+                <label class="form__label" id="form__label-repeatPassword">
+                    Repeat Password
+                    <input type="password" name="repeatPassword" class="form__input" id="repeatPassword">
+                </label>
+                <label class="form__label-checkbox">
+                    <input type="checkbox" name="agree" class="form__input-checkbox" id="checkbox">
+                    <span>Agree to our Terms of Service and Privacy Statement</span>
+                </label>
+                <div class="form__action">
+                    <button type="submit" class="button" id="button">Sign Up</button>
+                </div>
+            </form>
+            <div class="account">
+                <a href="#" class="account__link" id="account">Already have an account?</a>
+            </div>
+        </div>
+    </div>
+        </div>
+        <div class="main__right-part">
+            <div class="container main__container-right">
+                <img src="images/mainImage.png" alt="mainImage">
+            </div>
+        </div>
+    </div>
+
+    <div class="popup-container">
+        <div class="popup">
+            <div class="popup-text">
+                На вашу почту выслана ссылка, перейдите по ней, чтобы завершить регистрацию
+            </div>
+            <div class="popup-action">
+                <button type="button" class="button close-btn">OK</button>
+            </div>
+        </div>
+    </div>
+</main>
+
+<script src="scripts/script.js"></script>
+</body>
+</html>
+
