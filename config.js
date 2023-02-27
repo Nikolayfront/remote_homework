@@ -5,3 +5,5 @@ window.onload = function () {
 
     console.log('Добавили ветку dev-2');
 }
+
+console.log ("Контрольная 13, п.3");
