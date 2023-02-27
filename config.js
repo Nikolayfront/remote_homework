@@ -7,3 +7,4 @@ window.onload = function () {
 }
 
 console.log ("Контрольная 13, п.3");
+console.log ("Контрольная 13, п.13");
